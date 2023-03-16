@@ -49,11 +49,14 @@ body {
 .nav-link:hover {
   color: var(--active-color);
 }
-.contact-link {
-  color: var(--main-text);
+.adress {
   font-style: normal;
 }
-.contact-link:hover {
+.contact-link {
+  color: var(--main-text);
+}
+.contact-link:hover,
+contact-link:focus {
   color: var(--active-color);
 }
 .hero {
