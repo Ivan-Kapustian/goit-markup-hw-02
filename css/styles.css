@@ -1,4 +1,118 @@
+:root {
+  --main-text: #434455;
+  --secondary-text: #2e2f42;
+  --active-color: #404bbf;
+  --white: #fff;
+  --iris: #4d5ae5;
+  --secondary-white: #f4f4fd;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
 body {
-  font-family: Roboto, Raleway;
-  color: #434455;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--main-text);
+}
+.header {
+  background-color: var(--white);
+}
+.logo {
+  font-family: 'Raleway';
+  font-weight: 800;
+  font-size: 18px;
+  line-height: calc(21 / 18);
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--iris);
+}
+.studio {
+  color: var(--secondary-text);
+}
+.nav-link {
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--secondary-text);
+}
+.nav-link:hover {
+  color: var(--active-color);
+}
+.contact-link {
+  color: var(--main-text);
+  font-style: normal;
+}
+.contact-link:hover {
+  color: var(--active-color);
+}
+.hero {
+  background: var(--secondary-text);
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 56px;
+  line-height: calc(60 / 56);
+  color: var(--white);
+}
+.btn {
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+.hero-btn {
+  color: var(--white);
+  background: var(--iris);
+}
+.hero-btn:hover,
+.hero-btn:focus {
+  background: var(--iris);
+}
+.title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  color: var(--secondary-text);
+}
+.explain-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-transform: capitalize;
+  color: var(--secondary-text);
+}
+.team {
+  background: var(--secondary-white);
+}
+.team-item {
+  background: var(--white);
+}
+.footer {
+  background: var(--secondary-text);
+}
+.footer-text {
+  color: var(--secondary-white);
+}
+.studio-footer {
+  color: var(--secondary-white);
+}
+.btn-portfolio {
+  color: var(--iris);
+  background: var(--secondary-white);
+}
+.btn-portfolio:hover,
+.btn-portfolio:active {
+  background: var(--active-color);
+  color: var(--white);
 }
