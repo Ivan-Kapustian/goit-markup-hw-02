@@ -6,31 +6,32 @@
   --iris: #4d5ae5;
   --secondary-white: #f4f4fd;
 }
-ul {
+.list {
   list-style: none;
 }
-a {
+.link {
   text-decoration: none;
   cursor: pointer;
 }
 
 body {
-  font-family: 'Roboto';
+  font-family: 'Roboto' sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--main-text);
+  background-color: var(--white);
 }
 .header {
   background-color: var(--white);
 }
 .logo {
-  font-family: 'Raleway';
+  font-family: 'Raleway', sans-serif;
   font-weight: 800;
   font-size: 18px;
-  line-height: calc(21 / 18);
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--iris);
@@ -58,7 +59,8 @@ body {
 }
 .hero {
   background: var(--secondary-text);
-  font-family: 'Roboto';
+}
+.hero-title {
   font-weight: 700;
   font-size: 56px;
   line-height: calc(60 / 56);
@@ -70,6 +72,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
+  cursor: pointer;
 }
 .hero-btn {
   color: var(--white);
