@@ -117,7 +117,7 @@ contact-link:focus {
   background: var(--secondary-white);
 }
 .btn-portfolio:hover,
-.btn-portfolio:active {
+.btn-portfolio:focus {
   background: var(--active-color);
   color: var(--white);
 }
