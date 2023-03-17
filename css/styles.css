@@ -87,7 +87,7 @@ body {
 .hero-btn:focus {
   background-color: var(--iris);
 }
-.hiden-h2 {
+.hiden-h {
 }
 .title {
   font-weight: 500;
