@@ -116,6 +116,7 @@ body {
   color: var(--secondary-text);
 }
 .team-title {
+  font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   text-align: center;
