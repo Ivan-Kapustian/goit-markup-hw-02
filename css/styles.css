@@ -46,7 +46,8 @@ body {
   letter-spacing: 0.02em;
   color: var(--secondary-text);
 }
-.nav-link:hover {
+.nav-link:hover,
+.nav-link:focus {
   color: var(--active-color);
 }
 .adress {
@@ -56,7 +57,7 @@ body {
   color: var(--main-text);
 }
 .contact-link:hover,
-contact-link:focus {
+.contact-link:focus {
   color: var(--active-color);
 }
 .hero {
