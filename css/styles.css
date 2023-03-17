@@ -58,7 +58,7 @@ body {
 }
 .contact-link:hover,
 .contact-link:focus {
-  color: var(--active-color);
+  background-color: var(--active-color);
 }
 .hero {
   background: var(--secondary-text);
