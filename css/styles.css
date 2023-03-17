@@ -107,9 +107,17 @@ body {
 .team {
   background: var(--secondary-white);
 }
-.team-title {
+.team-main-title {
   font-size: 36px;
   line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--secondary-text);
+}
+.team-title {
+  font-size: 20px;
+  line-height: 1.2;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
