@@ -85,7 +85,7 @@ body {
 }
 .hero-btn:hover,
 .hero-btn:focus {
-  background: var(--iris);
+  background-color: var(--iris);
 }
 .title {
   font-weight: 500;
