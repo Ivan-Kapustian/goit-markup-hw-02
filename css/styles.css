@@ -87,21 +87,33 @@ body {
 .hero-btn:focus {
   background-color: var(--iris);
 }
+.hiden-h2 {
+}
 .title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   color: var(--secondary-text);
+  letter-spacing: 0.02em;
 }
 .explain-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   text-transform: capitalize;
+  text-align: center;
   color: var(--secondary-text);
 }
 .team {
   background: var(--secondary-white);
+}
+.team-title {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--secondary-text);
 }
 .team-item {
   background: var(--white);
